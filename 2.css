@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document*/
+{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container{
+    padding: 15px;
+    background-color: #219ec4;
+    position: relative;
+}
+.button{
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    overflow: auto;
+}
+.contact-nav{
+    background-color: #424242;
+    padding: 5px 10px;
+    color: #fafafa;
+}
+
+.nav img{
+    height: 200px;
+    width: 350px;
+}
+.nav ul{
+    float: right;
+    padding-top: 0px;
+}
+.nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.nav ul li a{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ffffff;
+    transition: .4;
+}
+.nav ul li a:hover{
+    color: #000000;
+}
+.feraldy{font-size: 12px;font-family: 'Open sans', sans-serif}
+.feraldy h2{font-weight: bold;font-size: 14px;border-bottom: 3px solid #2977BE;margin-bottom: 1px;padding: 4px 0}
+.feraldy .infoimg{float: left;margin-right: 1px}
+.feraldy .infoimg img{width: 166px;height: 223px;border: 1px solid #E7E7E7;padding: 4px;background: #FFF}
+.feraldy .infolist .item{line-height: 25px;padding: 0 5px;border-bottom: 1px solid #FFF;overflow: hidden;text-overflow: ellipsis;white-space: nowrap}
+.feraldy .infolist .item:nth-child(odd){background: #FAFAFA}
+.feraldy .infolist .item:nth-child(even){background: #F5F5F5}
+.feraldy .infolist .item b{display: block;float: left;width: 95px}
+.feraldy .infolist .item a{color: #333;text-decoration: none}
+.feraldy .synopsis{text-align: justify;font-size: 14px;margin: 1px 0;border: 1px solid #E1EAF0;padding: 10px}
+.feraldy .synopsis0{font-size: 12px}
+.feraldy .synopsis0 p{margin: 1em 0 !important}
+.feraldy .epslist{width: 100%;margin: 0;padding: 0;border-collapse: collapse;border-spacing: 0}
+.feraldy .epslist th, .epslist td{border: 1px solid #fff}
+.feraldy .epslist th{text-align: left;padding: 6px 5px;color: #646464;font-weight: bold;font-size: 11px;background: rgb(252,252,252);background: -moz-linear-gradient(top, rgba(252,252,252,1) 0%, rgba(232,232,232,1) 100%);background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,252,252,1)), color-stop(100%,rgba(232,232,232,1)));background: -webkit-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(232,232,232,1) 100%);background: -o-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(232,232,232,1) 100%);background: -ms-linear-gradient(top, rgba(252,252,252,1) 0%,rgba(232,232,232,1) 100%);background: linear-gradient(to bottom, rgba(252,252,252,1) 0%,rgba(232,232,232,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcfcfc', endColorstr='#e8e8e8',GradientType=0 )}
+.feraldy .epslist th.dl{text-align: center}
+.feraldy .epslist tr:nth-child(odd){background: #FAFAFA}
+.feraldy .epslist tr:nth-child(even){background: #F5F5F5}
+.feraldy .epslist tr:hover{background: #FAFAFA !important}
+.feraldy .epslist td{padding: 0 5px;line-height: 25px;height: 25px}
+.feraldy .epslist td.dl{width: 130px;text-align: center;background: #E5E8F0}
+.feraldy .epslist a{font-size: 12px;color: #505050;font-family: 'Open sans', sans-serif;text-decoration: none}
+.footer{
+    padding: 15px;
+    background-color: #219ec4;
+}
+.footer p{
+    text-align: center;
+    color: #ffffff;
+   
+}
